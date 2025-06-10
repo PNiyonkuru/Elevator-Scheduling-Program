@@ -1,17 +1,17 @@
 # OS_Elevator_Scheduler_Project
-This is the repository to handle the coding and some communication regarding the code for the project
-Project title : OS_Elevator_Scheduler_Project
+This is the repository to handle the coding regarding the project
+Project title : OperatinSystems_Elevator_Scheduler_Project
 
 # Description of Project 
 =========================
 
-This code written in C++ to serve as a scheduler for an elevator operating system whose core functionality is written completely in python. We chose to go with the First Come First Serve scheduling algorithm, "insert reason of choice here". "Insert improvemeents(if any) we couldve made had we optimized our algorithm" 
+This code written in C++ to serve as a scheduler for an elevator operating system whose core functionality is written completely in python. The scheduling is done using a "First Come First Serve" algorithm.
 
 
 # Multithreading Requirement
 ==========================
   
-We will make use of atleast 3 threads from the required threads( Input communication thread, Output Communication thread and Scheduler Computation thread) that will be running concurrently, and provide any necessary protection from race conditions.
+This program makes use of 3 threads( Input communication thread, Output Communication thread and Scheduler Computation thread) that will be running concurrently, and provides any necessary protection from race conditions.
 
 # Testing Requirements
 ==========================
@@ -22,13 +22,13 @@ Our code will not surpass the resources that the final grading script will reque
 # Timing Requirements
 ==========================
   
-Our code will be capable of completing the code in the required runtime, itll be able to run atleast 10% faster than professor's simplistic code.
+Our code will be capable of completing in the required runtime, itll be able to run atleast 10% faster than professor's simplistic code.
 
 
 # Usage instructions
 =========================
 
-The code needs the python API provided by the professor to run and our makefile which is included. 
+The code needs the python API provided by the professor to run and our makefile, which is included. 
 The code takes in the buidling file as an argument. 
 
 
